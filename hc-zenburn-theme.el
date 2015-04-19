@@ -98,10 +98,10 @@ Also bind `class' to ((class color) (min-colors 89))."
    '(button ((t (:underline t))))
    `(link ((t (:foreground ,hc-zenburn-yellow :underline t :weight bold))))
    `(link-visited ((t (:foreground ,hc-zenburn-yellow-2 :underline t :weight normal))))
-   `(default ((t (:foreground ,hc-zenburn-fg :background ,hc-zenburn-bg))))
+   `(default ((t (:foreground ,hc-zenburn-fg :background ,hc-zenburn-bg-1))))
    `(cursor ((t (:foreground ,hc-zenburn-fg :background ,hc-zenburn-fg+1))))
    `(escape-glyph ((t (:foreground ,hc-zenburn-yellow :bold t))))
-   `(fringe ((t (:foreground ,hc-zenburn-fg :background ,hc-zenburn-bg+1))))
+   `(fringe ((t (:foreground ,hc-zenburn-fg :background ,hc-zenburn-bg-1))))
    `(header-line ((t (:foreground ,hc-zenburn-yellow
                                   :background ,hc-zenburn-bg-1
                                   :box (:line-width -1 :style released-button)))))
@@ -146,14 +146,14 @@ Also bind `class' to ((class color) (min-colors 89))."
      ((t (:foreground ,hc-zenburn-green-1
                       :background ,hc-zenburn-bg-05
                       :box (:line-width -1 :style released-button)))))
-   `(region ((,class (:background ,hc-zenburn-bg-1))
+   `(region ((,class (:background ,hc-zenburn-bg-2))
              (t :inverse-video t)))
    `(secondary-selection ((t (:background ,hc-zenburn-bg+2))))
    `(trailing-whitespace ((t (:background ,hc-zenburn-red))))
-   `(vertical-border ((t (:foreground ,hc-zenburn-fg))))
+   `(vertical-border ((t (:foreground ,"color-237"))))
 ;;;;; font lock
    `(font-lock-builtin-face ((t (:foreground ,hc-zenburn-fg :weight bold))))
-   `(font-lock-comment-face ((t (:foreground ,hc-zenburn-green))))
+   `(font-lock-comment-face ((t (:foreground ,hc-zenburn-bg+3))))
    `(font-lock-comment-delimiter-face ((t (:foreground ,hc-zenburn-green-1))))
    `(font-lock-constant-face ((t (:foreground ,hc-zenburn-green+4))))
    `(font-lock-doc-face ((t (:foreground ,hc-zenburn-green+2))))
@@ -419,9 +419,9 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(ack-line ((t (:foreground ,hc-zenburn-yellow))))
    `(ack-match ((t (:foreground ,hc-zenburn-orange :background ,hc-zenburn-bg-1 :weight bold))))
 ;;;;; git-gutter
-   `(git-gutter:added ((t (:foreground ,hc-zenburn-green :weight bold :inverse-video t))))
-   `(git-gutter:deleted ((t (:foreground ,hc-zenburn-red :weight bold :inverse-video t))))
-   `(git-gutter:modified ((t (:foreground ,hc-zenburn-magenta :weight bold :inverse-video t))))
+   `(git-gutter:added ((t (:foreground ,hc-zenburn-green :weight bold :inverse-video nil))))
+   `(git-gutter:deleted ((t (:foreground ,hc-zenburn-red :weight bold :inverse-video nil))))
+   `(git-gutter:modified ((t (:foreground ,hc-zenburn-magenta :weight bold :inverse-video nil))))
    `(git-gutter:unchanged ((t (:foreground ,hc-zenburn-fg :weight bold :inverse-video t))))
 ;;;;; git-gutter-fr
    `(git-gutter-fr:added ((t (:foreground ,hc-zenburn-green  :weight bold))))
@@ -593,7 +593,7 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(ledger-font-reconciler-pending-face ((t (:foreground ,hc-zenburn-orange :weight normal))))
    `(ledger-font-report-clickable-face ((t (:foreground ,hc-zenburn-orange :weight normal))))
 ;;;;; linum-mode
-   `(linum ((t (:foreground ,hc-zenburn-green+2 :background ,hc-zenburn-bg))))
+   `(linum ((t (:foreground ,"color-237" :background ,hc-zenburn-bg-1))))
 ;;;;; macrostep
    `(macrostep-gensym-1
      ((t (:foreground ,hc-zenburn-green+2 :background ,hc-zenburn-bg-1))))
@@ -909,7 +909,7 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(web-mode-doctype-face ((t (:inherit ,font-lock-comment-face))))
    `(web-mode-folded-face ((t (:underline t))))
    `(web-mode-function-name-face ((t (:foreground ,hc-zenburn-blue))))
-   `(web-mode-html-attr-name-face ((t (:foreground ,hc-zenburn-orange))))
+   `(web-mode-html-attr-name-face ((t (:foreground ,hc-zenburn-red-2))))
    `(web-mode-html-attr-value-face ((t (:inherit ,font-lock-string-face))))
    `(web-mode-html-tag-face ((t (:foreground ,hc-zenburn-cyan))))
    `(web-mode-keyword-face ((t (:inherit ,font-lock-keyword-face))))
