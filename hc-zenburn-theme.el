@@ -138,13 +138,13 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(minibuffer-prompt ((t (:foreground ,hc-zenburn-yellow))))
    `(mode-line
      ((,class (:foreground ,hc-zenburn-green+1
-                           :background ,hc-zenburn-bg-1
+                           :background ,hc-zenburn-bg-05
                            :box (:line-width -1 :style released-button)))
       (t :inverse-video t)))
    `(mode-line-buffer-id ((t (:foreground ,hc-zenburn-yellow :weight bold))))
    `(mode-line-inactive
      ((t (:foreground ,hc-zenburn-green-1
-                      :background ,hc-zenburn-bg-05
+                      :background ,hc-zenburn-bg-1
                       :box (:line-width -1 :style released-button)))))
    `(region ((,class (:background ,hc-zenburn-bg-2))
              (t :inverse-video t)))
