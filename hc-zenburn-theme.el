@@ -739,6 +739,9 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(outline-6 ((t (:foreground ,hc-zenburn-green+2))))
    `(outline-7 ((t (:foreground ,hc-zenburn-red-4))))
    `(outline-8 ((t (:foreground ,hc-zenburn-blue-4))))
+;;;;; structured haskell mode
+   `(shm-current-face ((t (:background ,hc-zenburn-bg-2))))
+   `(shm-quarantine-face ((t (:background ,hc-zenburn-red-4))))
 ;;;;; p4
    `(p4-depot-added-face ((t :inherit diff-added)))
    `(p4-depot-branch-op-face ((t :inherit diff-changed)))
