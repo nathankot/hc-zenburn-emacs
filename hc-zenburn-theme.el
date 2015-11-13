@@ -150,7 +150,7 @@ Also bind `class' to ((class color) (min-colors 89))."
              (t :inverse-video t)))
    `(secondary-selection ((t (:background ,hc-zenburn-bg+2))))
    `(trailing-whitespace ((t (:background ,hc-zenburn-red))))
-   `(vertical-border ((t (:foreground ,"color-237"))))
+   `(vertical-border ((t (:foreground ,hc-zenburn-bg+2))))
 ;;;;; font lock
    `(font-lock-builtin-face ((t (:foreground ,hc-zenburn-fg :weight bold))))
    `(font-lock-comment-face ((t (:foreground ,hc-zenburn-bg+3))))
@@ -593,7 +593,7 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(ledger-font-reconciler-pending-face ((t (:foreground ,hc-zenburn-orange :weight normal))))
    `(ledger-font-report-clickable-face ((t (:foreground ,hc-zenburn-orange :weight normal))))
 ;;;;; linum-mode
-   `(linum ((t (:foreground ,"color-237" :background ,hc-zenburn-bg-1))))
+   `(linum ((t (:foreground ,hc-zenburn-bg+2 :background ,hc-zenburn-bg-1))))
 ;;;;; macrostep
    `(macrostep-gensym-1
      ((t (:foreground ,hc-zenburn-green+2 :background ,hc-zenburn-bg-1))))
