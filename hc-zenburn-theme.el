@@ -222,6 +222,7 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(company-tooltip-mouse ((t (:background ,hc-zenburn-bg-1))))
    `(company-tooltip-common ((t (:foreground ,hc-zenburn-green+2))))
    `(company-tooltip-common-selection ((t (:foreground ,hc-zenburn-green+2))))
+   `(company-tooltip-annotation ((t (:foreground ,hc-zenburn-red))))
    `(company-scrollbar-fg ((t (:background ,hc-zenburn-green+1))))
    `(company-scrollbar-bg ((t (:background ,hc-zenburn-bg-1))))
    `(company-preview ((t (:background ,hc-zenburn-green+1))))
