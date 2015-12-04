@@ -217,14 +217,14 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(popup-scroll-bar-background-face ((t (:background ,hc-zenburn-bg-1))))
    `(popup-isearch-match ((t (:background ,hc-zenburn-bg :foreground ,hc-zenburn-fg))))
 ;;;;; company-mode
-   `(company-tooltip ((t (:foreground ,hc-zenburn-fg :background ,hc-zenburn-bg+1))))
-   `(company-tooltip-selection ((t (:foreground ,hc-zenburn-fg :background ,hc-zenburn-bg-1))))
-   `(company-tooltip-mouse ((t (:background ,hc-zenburn-bg-1))))
+   `(company-tooltip ((t (:foreground ,hc-zenburn-fg :background ,hc-zenburn-bg-2))))
+   `(company-tooltip-selection ((t (:foreground ,hc-zenburn-fg :background ,hc-zenburn-bg+1))))
+   `(company-tooltip-mouse ((t (:background ,hc-zenburn-bg+1))))
    `(company-tooltip-common ((t (:foreground ,hc-zenburn-green+2))))
    `(company-tooltip-common-selection ((t (:foreground ,hc-zenburn-green+2))))
-   `(company-tooltip-annotation ((t (:foreground ,hc-zenburn-red))))
+   `(company-tooltip-annotation ((t (:foreground ,hc-zenburn-red :background ,hc-zenburn-bg-2))))
    `(company-scrollbar-fg ((t (:background ,hc-zenburn-green+1))))
-   `(company-scrollbar-bg ((t (:background ,hc-zenburn-bg-1))))
+   `(company-scrollbar-bg ((t (:background ,hc-zenburn-bg-2))))
    `(company-preview ((t (:background ,hc-zenburn-green+1))))
    `(company-preview-common ((t (:background ,hc-zenburn-bg-1))))
 ;;;;; bm
@@ -971,7 +971,8 @@ Also bind `class' to ((class color) (min-colors 89))."
 ;;;;; yascroll
    `(yascroll:thumb-text-area ((t (:background ,hc-zenburn-bg-1))))
    `(yascroll:thumb-fringe ((t (:background ,hc-zenburn-bg-1 :foreground ,hc-zenburn-bg-1))))
-   ))
+   )
+  )
 
 ;;; Theme Variables
 (hc-zenburn-with-color-variables
