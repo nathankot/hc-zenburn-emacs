@@ -540,6 +540,8 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(helm-moccur-buffer ((t (:foreground ,hc-zenburn-cyan :background ,hc-zenburn-bg))))
    `(helm-mu-contacts-address-face ((t (:foreground ,hc-zenburn-fg-1 :background ,hc-zenburn-bg))))
    `(helm-mu-contacts-name-face ((t (:foreground ,hc-zenburn-fg :background ,hc-zenburn-bg))))
+;;;;; ivy-mode
+   `(ivy-current-match ((t (:background ,hc-zenburn-bg+1 :underline nil))))
 ;;;;; hl-line-mode
    `(hl-line-face ((,class (:background ,hc-zenburn-bg-05))
                    (t :weight bold)))
