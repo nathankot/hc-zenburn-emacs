@@ -546,7 +546,7 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(helm-mu-contacts-address-face ((t (:foreground ,hc-zenburn-fg-1 :background ,hc-zenburn-bg))))
    `(helm-mu-contacts-name-face ((t (:foreground ,hc-zenburn-fg :background ,hc-zenburn-bg))))
 ;;;;; ivy-mode
-   `(ivy-current-match ((t (:background ,hc-zenburn-bg+1 :underline nil))))
+   `(ivy-current-match ((t (:foreground ,hc-zenburn-bg :background ,hc-zenburn-fg :underline nil))))
 ;;;;; hl-line-mode
    `(hl-line-face ((,class (:background ,hc-zenburn-bg-05))
                    (t :weight bold)))
