@@ -306,10 +306,10 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(ediff-odd-diff-B ((t (:background ,hc-zenburn-bg+2))))
    `(ediff-odd-diff-C ((t (:background ,hc-zenburn-bg+2))))
 ;;;;; avy
-   `(avy-lead-face ((t (:foreground ,hc-zenburn-yellow :background ,hc-zenburn-bg-2))))
-   `(avy-lead-face-0 ((t (:foreground ,hc-zenburn-green :background ,hc-zenburn-bg-2))))
-   `(avy-lead-face-1 ((t (:foreground ,hc-zenburn-cyan :background ,hc-zenburn-bg-2))))
-   `(avy-lead-face-2 ((t (:foreground ,hc-zenburn-red+1 :background ,hc-zenburn-bg-2))))
+   `(avy-lead-face ((t (:background ,hc-zenburn-red-2 :foreground ,hc-zenburn-fg+1))))
+   `(avy-lead-face-0 ((t (:background ,hc-zenburn-green :foreground ,hc-zenburn-fg+1))))
+   `(avy-lead-face-1 ((t (:background ,hc-zenburn-cyan :foreground ,hc-zenburn-fg+1))))
+   `(avy-lead-face-2 ((t (:background ,hc-zenburn-red+1 :foreground ,hc-zenburn-fg+1))))
 ;;;;; egg
    `(egg-text-base ((t (:foreground ,hc-zenburn-fg))))
    `(egg-help-header-1 ((t (:foreground ,hc-zenburn-yellow))))
